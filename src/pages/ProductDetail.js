@@ -24,7 +24,7 @@ const dispatch = useDispatch();
         setProduct(productsSearch);
         dispatch(filterCategory(productsSearch.category.id));
       });
-  }, [ id]);
+  }, [dispatch, id]);
 
   
   const products = useSelector((state) => state.products);

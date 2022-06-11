@@ -34,7 +34,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(getProducts());
-  }, [getProducts, dispatch]);
+  }, [ dispatch]);
 
   const selectCategory = (id) => {
     dispatch(filterCategory(id));
