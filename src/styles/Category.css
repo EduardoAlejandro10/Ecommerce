@@ -1,0 +1,30 @@
+
+.mobile-category-container {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+
+.mobile-category-container button {
+  border: none;
+  margin-top: 10px;
+  background-color: white;
+  cursor: pointer;
+  
+}
+
+.mobile-category-container button:hover {
+  background-color: #f5f5f5;
+
+}
+
+
+@media screen and (min-width: 968px) {
+  .mobile-category-container {
+    display: none;
+  }
+  
+}
+

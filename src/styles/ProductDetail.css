@@ -1,0 +1,154 @@
+* {
+  list-style: none;
+}
+
+.return-container a {
+  color: black;
+}
+
+.return-container {
+  margin-top: 20px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-detail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main-detail-content h2 {
+  margin-right: 100px;
+}
+
+.options-box input {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+}
+
+.options-box button {
+  width: 30px;
+  height: 30px;
+}
+
+.options-box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  width: 100%;
+}
+
+.quantity {
+  margin-top: -10px;
+}
+
+.quantity p {
+  color: lightgray;
+}
+
+.price-box span {
+  color: lightgray;
+}
+
+.add-button {
+  margin-top: 20px;
+  width: 50%;
+  max-width: 500px;
+  min-width: 400px;
+  height: 50px;
+  background-color: #f85555;
+  color: white;
+  cursor: pointer;
+  border: #f85555;
+}
+
+.img-container {
+  width: 350px;
+  height: 350px;
+  margin: 20px auto;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card-description-container {
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  color: #515151;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #3c3c3b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  color: white;
+}
+
+.footer-title {
+  margin-top: 20px;
+}
+
+.social-media-container {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 40px;
+  align-content: center;
+  justify-content: center;
+}
+
+.social-media-container div {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #50504f;
+}
+
+.social-media-container div > i {
+  padding: 11px;
+}
+
+.h3-suggestions {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #f85555;
+}
+
+@media screen and (min-width: 868px) {
+  .main-detail-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .main-container {
+    display: flex;
+  }
+
+  .img-container {
+    width: 450px;
+    height: 450px;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+  }
+}

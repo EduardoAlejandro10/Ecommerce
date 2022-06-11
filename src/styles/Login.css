@@ -1,0 +1,57 @@
+.form-estructure {
+  width: 100%;
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 5px;
+  height: 544px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: lightgray 1px solid;
+}
+
+.form-estructure h2 {
+  color: #515151;
+  font-size: 24px;
+}
+
+.test-data {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  height: 115px;
+  background-color: #d8f5fd;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.test-data h3 {
+  text-align: center;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.lock-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-estructure input {
+  height: 35px;
+}
+
+.form-estructure button {
+  height: 35px;
+  background-color: rgb(230, 66, 66);
+  border: none;
+  color: white;
+
+  cursor: pointer;
+}
